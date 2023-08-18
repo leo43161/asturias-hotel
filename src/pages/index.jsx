@@ -1,21 +1,12 @@
+import NavBar from "@/components/NavBar";
+
 export default function Home() {
     return (
         <div>
             <div className="overflow-hidden">
                 <header className="flex flex-col items-center text-white relative w-auto h-screen overflow-hidden">
                     <img src="img/habitacion1.jpg" alt="Habitación" className="absolute inset-0 w-full h-full object-cover filter brightness-50 z-[-100]" />
-                    <nav className="flex justify-center flex-col lg:w-6/12 md:w-8/12 mb-3 w-full">
-                        <div className="my-4">
-                            <h3 className="font-title text-3xl text-center">Asturias</h3>
-                        </div>
-                        <div className="flex md:flex-row flex-col justify-around bg-black md:bg-transparent w-full">
-                            <div className="text-center"><a href="#">Sobre nosotros</a> </div>
-                            <div className="text-center"><a href="#">Amenities</a></div>
-                            <div className="text-center"><a href="#">Galeria</a></div>
-                            <div className="text-center"><a href="#">Packages</a></div>
-                            <div className="text-center"><a href="#">Contactanos</a></div>
-                        </div>
-                    </nav>
+                    <NavBar></NavBar>
                     <div className="flex-1 w-full flex justify-center items-center">
                         <div>
                             <h1 className="font-title text-6xl text-center mb-3">Asturias</h1>
