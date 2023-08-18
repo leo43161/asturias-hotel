@@ -20,7 +20,22 @@ export default function Home() {
                     </div>
                 </header>
             </div>
-            <h3>Prueba en tailwindcss</h3>
+            <section className="container mx-auto px-5 pb-20">
+                <div className="text-center py-24">
+                    <h3 className="text-4xl font-title">Sobre nosotros</h3>
+                    <h4>Te garantizamos una satisfacion inmediata</h4>
+                </div>
+                <div className="flex items-center gap-10">
+                    <div className="flex w-3/6">
+                        <img src="img/nosotros1.jpg" className="shadow-[0_10px_80px_5px_rgba(0,0,0,0.3)]" alt="" />
+                    </div>
+                    <div className="w-3/6 ">
+                        <h2 className="text-2xl mb-4">10 años empleados en servir un excelente servicion</h2>
+                        <h3 className="mb-4 font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rem recusandae soluta iste a nobis quia praesentium voluptate, velit impedit?</h3>
+                        <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dignissimos ea commodi repudiandae officiis vel, quibusdam veritatis unde, quidem voluptate fugiat at recusandae! Eius nihil illo magni itaque hic obcaecati. Nesciunt quam veniam iusto quia fugit, ipsum sunt facere, aliquam nobis maiores optio molestias at, nisi repellendus facilis explicabo neque accusantium quisquam saepe amet culpa fugiat voluptatum laborum.  </p>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
